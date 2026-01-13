@@ -6,6 +6,8 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-style: normal;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -13,6 +15,8 @@ body {
   justify-content: center; /* container w środku */
   align-items: center;
   width: 100%; /* full-width header */
+  padding: 0 50px; /* padding góra-dół */
+  box-sizing: border-box; /* uwzględnianie paddingu w szerokości */
 }
 
 .logo img {
